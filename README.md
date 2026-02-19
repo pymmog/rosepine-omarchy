@@ -1,6 +1,6 @@
 # Omarchy Rosé Pine Theme
 
-A [Rosé Pine](https://rosepinetheme.com) color scheme for [Omarchy](https://omarchy.com), available in three variants:
+A [Rosé Pine](https://rosepinetheme.com) color scheme for [Omarchy](https://omarchy.org), available in three variants:
 
 | Variant | Description |
 |---------|-------------|
@@ -13,7 +13,7 @@ A [Rosé Pine](https://rosepinetheme.com) color scheme for [Omarchy](https://oma
 ### Option 1: Clone the repo (recommended)
 
 ```bash
-git clone https://github.com/you/rosepine-omarchy.git /tmp/rosepine-omarchy
+git clone https://github.com/pymmog/rosepine-omarchy.git /tmp/rosepine-omarchy
 ```
 
 Copy your preferred variant to the Omarchy themes directory:
@@ -34,9 +34,9 @@ cp -r /tmp/rosepine-omarchy/dawn ~/.config/omarchy/themes/rosepine-dawn
 Each variant is also available as a standalone repo:
 
 ```bash
-git clone https://github.com/you/rosepine-omarchy-default.git ~/.config/omarchy/themes/rosepine
-git clone https://github.com/you/rosepine-omarchy-moon.git ~/.config/omarchy/themes/rosepine-moon
-git clone https://github.com/you/rosepine-omarchy-dawn.git ~/.config/omarchy/themes/rosepine-dawn
+git clone https://github.com/pymmog/rosepine-omarchy-default.git ~/.config/omarchy/themes/rosepine
+git clone https://github.com/pymmog/rosepine-omarchy-moon.git ~/.config/omarchy/themes/rosepine-moon
+git clone https://github.com/pymmog/rosepine-omarchy-dawn.git ~/.config/omarchy/themes/rosepine-dawn
 ```
 
 ### Option 3: curl individual files
@@ -44,7 +44,7 @@ git clone https://github.com/you/rosepine-omarchy-dawn.git ~/.config/omarchy/the
 ```bash
 VARIANT="default"  # or "moon" or "dawn"
 DEST="$HOME/.config/omarchy/themes/rosepine"
-BASE="https://raw.githubusercontent.com/you/rosepine-omarchy/main/$VARIANT"
+BASE="https://raw.githubusercontent.com/pymmog/rosepine-omarchy/main/$VARIANT"
 
 mkdir -p "$DEST"
 for f in colors.toml btop.theme neovim.lua vscode.json waybar.css icons.theme; do
@@ -66,4 +66,4 @@ Each variant includes:
 ## Credits
 
 - [Rosé Pine](https://rosepinetheme.com) for the color palette
-- [Omarchy](https://omarchy.com) for the desktop environment
+- [Omarchy](https://omarchy.org) for the desktop environment
