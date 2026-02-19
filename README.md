@@ -4,7 +4,7 @@ A [Rosé Pine](https://rosepinetheme.com) color scheme for [Omarchy](https://oma
 
 | Variant | Description |
 |---------|-------------|
-| **default** | Rosé Pine — the original dark theme |
+| **base** | Rosé Pine — the original dark theme |
 | **moon** | Rosé Pine Moon — a softer dark theme |
 | **dawn** | Rosé Pine Dawn — a warm light theme |
 
@@ -19,8 +19,8 @@ git clone https://github.com/pymmog/rosepine-omarchy.git /tmp/rosepine-omarchy
 Copy your preferred variant to the Omarchy themes directory:
 
 ```bash
-# default (dark)
-cp -r /tmp/rosepine-omarchy/default ~/.config/omarchy/themes/rosepine
+# base (dark)
+cp -r /tmp/rosepine-omarchy/base ~/.config/omarchy/themes/rosepine-base
 
 # moon
 cp -r /tmp/rosepine-omarchy/moon ~/.config/omarchy/themes/rosepine-moon
@@ -34,7 +34,7 @@ cp -r /tmp/rosepine-omarchy/dawn ~/.config/omarchy/themes/rosepine-dawn
 Each variant is also available as a standalone repo:
 
 ```bash
-git clone https://github.com/pymmog/rosepine-omarchy-default.git ~/.config/omarchy/themes/rosepine
+git clone https://github.com/pymmog/rosepine-omarchy-base.git ~/.config/omarchy/themes/rosepine-base
 git clone https://github.com/pymmog/rosepine-omarchy-moon.git ~/.config/omarchy/themes/rosepine-moon
 git clone https://github.com/pymmog/rosepine-omarchy-dawn.git ~/.config/omarchy/themes/rosepine-dawn
 ```
@@ -42,7 +42,7 @@ git clone https://github.com/pymmog/rosepine-omarchy-dawn.git ~/.config/omarchy/
 ### Option 3: curl individual files
 
 ```bash
-VARIANT="default"  # or "moon" or "dawn"
+VARIANT="base"  # or "moon" or "dawn"
 DEST="$HOME/.config/omarchy/themes/rosepine"
 BASE="https://raw.githubusercontent.com/pymmog/rosepine-omarchy/main/$VARIANT"
 
