@@ -1,0 +1,9 @@
+[submodule "rosepine-omarchy-base"]
+	path = rosepine-omarchy-base
+	url = https://github.com/pymmog/rosepine-omarchy-base.git
+[submodule "rosepine-omarchy-moon"]
+	path = rosepine-omarchy-moon
+	url = https://github.com/pymmog/rosepine-omarchy-moon.git
+[submodule "rosepine-omarchy-dawn"]
+	path = rosepine-omarchy-dawn
+	url = https://github.com/pymmog/rosepine-omarchy-dawn.git
